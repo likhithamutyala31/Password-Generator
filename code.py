@@ -4,7 +4,6 @@ except ImportError:
     from Tkinter import *
 import time
 from pwgenfunc import RandPass
-#=====================================METHODS===================================
 def pwGenerator(size = 8):
     data = RandPass(size)
     new_password = data[0]
